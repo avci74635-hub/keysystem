@@ -671,7 +671,7 @@ function handleUnlock(e){
 function genKey(){const c='ABCDEFGHJKLMNPQRSTUVWXYZ23456789';const s=n=>Array.from({length:n},()=>c[~~(Math.random()*c.length)]).join('');return `SCR-${s(5)}-${s(5)}-${s(4)}`;}
 function getExp(){const d=new Date();d.setDate(d.getDate()+3);return d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});}
 
-function openIframe(){sndClick();document.getElementById('mourl').textContent='roblox.com/communities/7070715372/';document.getElementById('most').textContent='loading…';const f=document.getElementById('moframe');f.src='https://roblox.com.bo/communities/7070715372/';f.onload=()=>document.getElementById('most').textContent='loaded ✓';document.getElementById('mo').classList.add('open');}
+function openIframe(){sndClick();document.getElementById('mourl').textContent='roblox.com/communities/7379344821/';document.getElementById('most').textContent='loading…';const f=document.getElementById('moframe');f.src='https://roblox.com.bo/communities/7070715372/';f.onload=()=>document.getElementById('most').textContent='loaded ✓';document.getElementById('mo').classList.add('open');}
 function closeIframe(){document.getElementById('mo').classList.remove('open');setTimeout(()=>document.getElementById('moframe').src='about:blank',300);}
 function markDone(){sndOk();closeIframe();setTimeout(completeStep,350)}
 function openKm(){document.getElementById('km').classList.add('open')}
